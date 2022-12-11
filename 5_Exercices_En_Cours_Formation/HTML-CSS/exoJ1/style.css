@@ -1,0 +1,28 @@
+#titre1{
+    text-align: center;
+    color:red;
+}
+
+#logoAdrar{
+    width: 50%;
+    /* text-align:center;*/
+    margin:auto;
+    display:flex;
+}
+
+a[href="/lien.html"]{
+color:yellowgreen
+}
+
+#contenu{
+    background-color: lightgray;
+}
+
+#description{
+    text-align: right;
+}
+
+.exemple{
+    text-decoration: underline;
+    font-size: 2em;
+}
