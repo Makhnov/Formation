@@ -1,7 +1,8 @@
 A l'inverse du fichier sitemap.xml qui est là pour aider les robot d'indexation à parcourir plus facilement notre site, le fichier robot.txt est lui destiné à spécifier aux robots les pages qui ne doivent pas être indexées.
 Qu'il s'agisse de page obsolètes (archives...), en doublon ou privées. Les deux fichiers ont néammoins le même objectif principal : faciliter l'indexation. 
 
-Le fichier .htaccess est lui destiné à la configuration d'un serveur (apache uniquement), il est surtout utile si on n'a pas accès à la configuration principale (plus rapide). 
+Le fichier .htaccess est lui destiné à la configuration d'un serveur (apache uniquement, voir leur site pour la doc : https://httpd.apache.org/docs/2.4/fr/howto/htaccess.html)
+Il est surtout utile si on n'a pas accès à la configuration principale (plus rapide). 
 Il permet de configurer le répertoire et les sous répertoires dans lequel il est placé. Exemples de configuration possible :
 - Redirection/réécriture d'url.
 - Bloquer l'accès à certaines page.
@@ -9,5 +10,3 @@ Il permet de configurer le répertoire et les sous répertoires dans lequel il e
 - Compression de fichiers.
 - Mise en place de mots de passes pour certains répertoires/pages/fichiers.
 etc.
-
-
